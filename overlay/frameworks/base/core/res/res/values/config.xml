@@ -291,4 +291,7 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
+
+    <!-- Google WebView Name -->
+    <string name="config_webViewPackageName">com.google.android.webview</string>
 </resources>

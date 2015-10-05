@@ -16,6 +16,11 @@
 
 TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 
+# Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2/bin/"
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
