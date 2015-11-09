@@ -323,7 +323,6 @@ on boot
     write /sys/devices/virtual/input/lge_touch/touch_gesture 1
 
 on charger
-    stop bootlogo
     setprop persist.sys.usb.config charging
     mount_all ./fstab.g2
 
