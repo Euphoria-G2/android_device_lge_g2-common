@@ -324,6 +324,7 @@ on boot
 
 on charger
     stop bootlogo
+    setprop persist.sys.usb.config charging
     mount_all ./fstab.g2
 
     start rmt_storage
