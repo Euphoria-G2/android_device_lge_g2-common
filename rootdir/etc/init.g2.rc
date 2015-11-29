@@ -82,10 +82,6 @@ on fs
 
 on post-fs
     swapon_all ./fstab.g2
-    write /proc/sys/vm/dirty_background_ratio 5
-    write /proc/sys/vm/dirty_ratio 20
-    write /proc/sys/vm/swappiness 60
-    write /proc/sys/vm/vfs_cache_pressure 100
 
 on post-fs-data
     mkdir /data/media 0770 media_rw media_rw
